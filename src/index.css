@@ -1,0 +1,67 @@
+/* src/Stopwatch.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/background.jpeg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  color: #FFD700; 
+  transform: scale(1.5); 
+}
+
+.display {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding:  20px 40px;
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #FFD700; 
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: 2px solid #FFD700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #FFD700;
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+button:hover {
+  background-color: #FFD700;
+  color: black; 
+}
+
+.start-button {
+
+}
+
+.stop-button {
+
+}
+
+.reset-button {
+
+}
